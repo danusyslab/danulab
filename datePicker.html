@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/components.css">
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Danusys Creative Lab</title>
+</head>
+<body class="before_load">
+    <div class="loading">
+        <svg class="loading_circle">
+            <circle cx="50%" cy="50%" r="25"></circle>
+        </svg>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="hd_pc">
+                <a href="main.html">
+                    <div class="logo_title">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </div> 
+                </a>
+                <ul>
+                    <li>
+                        <a href="logo.html">BX Guide</a>
+                    </li>
+                    <li class="active">
+                        <a href="main.html">Design System</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd_mo">
+                <div class="logo_title">
+                    <a href="main.html">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </a>
+                </div>
+                <div class="hamburger_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z"/></g></svg>
+                </div>
+                <div class="ham_cancel_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z"/></g></svg>
+                </div>
+            </div>
+        </header>
+        <div class="side_menu_wrapper">
+            <nav class="left_side">
+                <ul class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li class="sub_list_con_item acco_active">
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="side_menu_wrapper_mo">
+            <nav class="left_side">
+                <ul class="home_con">
+                    <li id="bxTab" class="home_item">
+                        <a href="#">
+                            <span>BX Guideline</span>
+                        </a>
+                    </li>
+                    <li id="designTab" class="home_item active">
+                        <a href="#">
+                            <span>Design System</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="bxList" class="list_con" style="display: none;">
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Danusys</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li class="sub_list_con_item">
+                                <a href="logo.html" class="side_item">
+                                    <span class="submenu_item">Wordmark</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="businesscard.html" class="side_item">
+                                    <span class="submenu_item">Business card</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="brandgoods.html" class="side_item">
+                                    <span class="submenu_item">Brandgoods</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="designList" class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main_container contents_back">
+            <button onclick="goToTop()" type="button" class="gototop">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 24V0h24v24z"/></mask><g mask="url(#a)"><path fill="#333" d="m18 17-1.4 1.4-4.6-4.6-4.6 4.6L6 17l6-6 6 6Zm0-9H6V6h12v2Z"/></g></svg>
+            </button>
+            <div class="top_sub_blue_con">
+                <div class="top_sub_container">
+                    <span class="sub_top_text">
+                        Date picker
+                     </span>
+                     <div class="status_con">
+                         <ul class="status_area">
+                             <li class="status_item">
+                                 <span class="name_work">
+                                     기획/디자인
+                                 </span>
+                                 <div class="status_current">
+                                     <span class="ongoing_status"></span>
+                                     <p class="text_status">진행 중</p>
+                                 </div>
+                             </li>
+                             <li class="status_item">
+                                 <span class="name_work">
+                                     코딩
+                                 </span>
+                                 <div class="status_current">
+                                    <span class="ongoing_status"></span>
+                                    <p class="text_status">진행 중</p>
+                                </div>
+                             </li>
+                         </ul>
+                         <span class="date_updated">
+                             1.0.0 버전 / 2023년 5월 10일 업로드
+                         </span>
+                     </div>
+                </div>
+            </div>
+            <div class="sub_second_con">
+                <p class="desc_text">데이트 픽커를 사용하여 특정 날짜를 선택할 수 있습니다. </p>
+                <ul class="res_btn_area">
+                    <li class="res_btn_item">
+                        <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?type=design&node-id=3118%3A31506&t=TYE7QL8D60GqiNNA-1" target="_blank" class="res_btn_a">
+                            <span class="res_btn_name">
+                                디자인 파일 바로가기
+                            </span>
+                            <div class="res_link_con">
+                                <span class="figma_link">
+                                    <img src="images/figma.svg"/>
+                                </span>
+                                <span class="arrow_other_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 18 5 16.6 14.6 7H6V5h12v12h-2V8.4L6.4 18Z"/></g></svg>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="res_btn_item">
+                        <a href="#" download="" class="res_btn_a">
+                            <span class="res_btn_name">
+                                SCSS 파일 다운로드
+                            </span>
+                            <div class="res_link_con">
+                                <span class="figma_link">
+                                    <img src="images/css.svg"/>
+                                </span>
+                                <span class="arrow_other_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6 20c-.55 0-1.02-.196-1.412-.587A1.927 1.927 0 0 1 4 18v-3h2v3h12v-3h2v3c0 .55-.196 1.021-.587 1.413A1.928 1.928 0 0 1 18 20H6Zm6-4-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Z"/></g></svg>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content_container">
+                <h2 class="content_title">구성 요소</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">데이트 픽커는 박스 형태의 데이트 픽커 입력 필드와 그 왼쪽 또는 위에 배치된 드롭다운 레이블, 밑에 배치된 도움말로 구성되며, 입력 필드 클릭 시 달력이 나타날 수 있습니다.</p>
+                </div>
+                <div class="image_container">
+                    <div class="image_con">
+                        <ul class="image_area">
+                            <li class="image_item">
+                                <img src="images/datepicker_1.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="image_con">
+                        <ul class="image_area">
+                            <li class="image_item">
+                                <img src="images/datepicker_2.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            1. 데이트 픽커 레이블: 선택해야 하는 내용(옵션)에 대한 정보를 나타냅니다.</br>
+2. 데이트 픽커 입력 값: 사용자가 데이트 픽커에 입력한 내용(선택 날짜)입니다. 날짜를 직접 타이핑하여 또는 달력에서 날짜를 선택하여 입력할 수 있습니다. 아무것도 선택되지 않았을 때는 자리 표시자(yyyy. mm. dd.)가 나타날 수 있습니다.</br>
+3. 데이트 픽커 입력 필드: 데이트 픽커 입력 값과 아이콘을 포함하는 컨테이너입니다.</br>
+4. 도움말(선택 사항): 사용자가 올바른 입력 값을 작성하도록 추가적인 정보를 제공할 때 사용하는 보조 레이블입니다. </br>
+5. 선택된 연/월: 현재 선택되어 있는 연도와 달을 나타냅니다.</br>
+6. 이전 또는 다음 월: 이전 달 또는 다음 달로 이동합니다.</br>
+7. 오늘 날짜: 데이트 픽커를 클릭한 날에는 날을 나타내는 숫자 아래에 2px의 정사각형이 함께 노출됩니다.</br>
+8. 날짜: 원하는 날짜를 선택할 수 있습니다.</br>
+9. 선택된 날짜: 사용자가 클릭하여 선택된 날에는 원형(danu_blue_60)의 배경색과 함께 흰색으로 날짜가 노출됩니다.</br>
+10. 달력: 날짜를 선택하여 입력할 수 있으며, 데이트 픽커 입력 필드를 눌러 열고 닫을 수 있습니다.</br>
+11. 이전 또는 다음 월의 날짜: 이전 달 또는 다음 달의 날짜를 나타냅니다.</br>
+                        </span>
+                    </div>
+                </div>
+                <h2 class="content_title">사용 가이드</h2>
+                <div class="desc_text_con">
+                    <h5 class="desc_text_strong">1. 일반</h5>
+                    <p class="desc_text">
+                        - 입력 필드의 너비는 날짜 입력값이 넘치거나 달력의 너비를 넘지 않는 범위 내에서 자유롭게 조정할 수 있습니다.</br>
+- 레이블이 수평으로 배치된 데이트 픽커와 수직으로 배치된 데이터 픽커를 함께 사용하지 않습니다.</br>
+- 아무것도 입력되지 않은 상태를 기본값으로 하는 것을 권장하나, 대부분의 사용자가 선택할 것으로 예측되는 항목이 있는 경우에 한하여 예측값을 기본값으로 할 수 있습니다.</br>
+                    <h5 class="desc_text_strong">2. 레이블</h5>
+                    <p class="desc_text">
+                        - 레이블은 간결하고 명확하게 작성합니다.</br>
+- 필수 항목에 대해서는 레이블 뒤에 ‘*’를 붙혀 필수임을 인지할 수 있도록 합니다.</br>
+- 레이블에 긍정적이고 적극적인 표현을 사용합니다.</br>
+                    </p>
+                    <h5 class="desc_text_strong">3. 자리표시자</h5>
+                    <p class="desc_text">
+                        - 날짜 표기 양식을 나타냅니다.</br>
+                    </p>
+                    <h5 class="desc_text_strong">4. 도움말(선택 사항)</h5>
+                    <p class="desc_text">
+                        - 날짜 표기 양식을 나타냅니다.</br>
+                    </p>
+                    <h5 class="desc_text_strong">5. 달력</h5>
+                    <p class="desc_text">
+                        - 달력의 높이와 너비는 조정할 수 없습니다.</br>
+- 달력은 입력 필드와 왼쪽 정렬해야 합니다.</br>
+- 달력이 화면에 나타나는 위치에 따라 메뉴 드롭다운 상단 또는 하단에 위치할 수 있습니다. </br>
+                    </p>
+                </div>
+                <div class="do_donot_con">
+                    <div class="do_donot_area">
+                        <ul class="do_donot_list">
+                            <li class="do_donot_item">
+                                <div class="available_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"/></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"/></svg>
+                                </div>
+                                <img src="images/datepicker_3.png"/>
+                                <p>레이블 가로 배치 사용 가능</p>
+                            </li>
+                            <li class="do_donot_item">
+                                <div class="available_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"/></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"/></svg>
+                                </div>
+                                <img src="images/datepicker_4.png"/>
+                                <p>레이블 세로 배치 사용 가능</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2 class="content_title">간격 가이드</h2>
+                <div class="image_container">
+                    <div class="image_con">
+                        <ul class="image_area">
+                            <li class="image_item">
+                                <img src="images/datepicker_5.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="image_con">
+                        <ul class="image_area">
+                            <li class="image_item">
+                                <img src="images/datepicker_6.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            레이블과 입력 버튼 사이 간격은 8px. 입력 버튼과 도우미 텍스트 사이 간격 또한 8px을 사용합니다.</br>
+달력의 상하 좌우 마진은 16px을 사용하며 현재 달, 연도 사이 간격과 날짜 사이 간격은 12px, 날짜들의 사이 간격은 8px을 사용합니다.
+                        </span>
+                    </div>
+                </div>
+                <h2 class="content_title">버튼 상태</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">기본 상태인 Default, 마우스로 클릭한 상태인 Focus, 읽기 전용 상태인 Read only, 에러 상태인 Eroor를 지원합니다.</p>
+                </div>
+                <div class="them_container">
+                    <div class="them_con">
+                        <div class="them_area_dark">
+                            <img src="images/datepicker_dark_mode.png"/>
+                        </div>
+                        <div class="them_area_light">
+                            <img src="images/datepicker_light_mode.png"/>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="content_title">종류</h2>
+                <div class="image_container">
+                    <div class="image_con">
+                        <ul class="image_area">
+                            <li class="image_item horizon_type">
+                                <img src="images/datepicker_7.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="image_con">
+                        <ul class="image_area">
+                            <li class="image_item horizon_type">
+                                <img src="images/datepicker_7-1.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            날짜를 선택할 수 있는 Day picker와 달을 선택할 수 있는 Month picker를 지원합니다.
+                        </span>
+                    </div>
+                </div>
+                <h2 class="content_title">Day picker</h2>
+                <div class="disc_con">
+                    <h5 class="desc_text_strong">사용 시기</h5>
+                    <p class="desc_text">
+                        사용자에게 적확한 날짜 데이터를 입력하도록 해야할 때 사용합니다. (ex. 검색 시 적확한 시작일과 종료일을 요구해야할 때)
+                    </p>
+                </div>
+                <div class="use_image_container">
+                    <div class="use_image_con">
+                        <ul class="use_image_area">
+                            <li class="use_image_item">
+                                <img src="images/datepicker_8.png"/>
+                                <span class="disc_style">
+                                    가로형
+                                </span>
+                            </li>
+                            <li class="use_image_item">
+                                <img src="images/datepicker_9.png"/>
+                                <span class="disc_style">
+                                    세로형
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            가로형과 세로형을 지원합니다.
+                        </span>
+                    </div>
+                </div>
+                <div class="use_image_container">
+                    <div class="use_image_con">
+                        <ul class="use_image_area">
+                            <li class="use_image_item">
+                                <img src="images/datepicker_10.png"/>
+                                <span class="disc_style">
+                                    단일 사용
+                                </span>
+                            </li>
+                            <li class="use_image_item">
+                                <img src="images/datepicker_11.png"/>
+                                <span class="disc_style">
+                                    이중 사용
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            상황에 따라 단일로 사용할 수 있고 이중으로 사용할 수 있습니다.
+                        </span>
+                    </div>
+                </div>
+                <h2 class="content_title">Month picker</h2>
+                <div class="disc_con">
+                    <h5 class="desc_text_strong">사용 시기</h5>
+                    <p class="desc_text">
+                        사용자에게 근사 데이터를 요구할 때 사용합니다. (ex. 장기 데이터 기간 선택 시 달에서 달로 선택할 때)
+                    </p>
+                </div>
+                <div class="use_image_container">
+                    <div class="use_image_con">
+                        <ul class="use_image_area">
+                            <li class="use_image_item">
+                                <img src="images/datepicker_12.png"/>
+                                <span class="disc_style">
+                                    가로형
+                                </span>
+                            </li>
+                            <li class="use_image_item">
+                                <img src="images/datepicker_13.png"/>
+                                <span class="disc_style">
+                                    세로형
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            가로형과 세로형을 지원합니다.
+                        </span>
+                    </div>
+                </div>
+                <div class="use_image_container">
+                    <div class="use_image_con">
+                        <ul class="use_image_area">
+                            <li class="use_image_item">
+                                <img src="images/datepicker_14.png"/>
+                                <span class="disc_style">
+                                    단일 사용
+                                </span>
+                            </li>
+                            <li class="use_image_item">
+                                <img src="images/datepicker_15.png"/>
+                                <span class="disc_style">
+                                    이중 사용
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            상황에 따라 단일로 사용할 수 있고 이중으로 사용할 수 있습니다.
+                        </span>
+                    </div>
+                </div>
+                <h2 class="content_title">Range of days</h2>
+                <div class="disc_con">
+                    <h5 class="desc_text_strong">사용 시기</h5>
+                    <p class="desc_text">
+                        사용자에게 날짜 데이터를 기간으로 요구할 때 사용합니다. (ex. 시작일에서 종료일까지를 기간으로 설정할 때)
+                    </p>
+                </div>
+                <div class="use_image_container">
+                    <div class="use_image_con">
+                        <ul class="use_image_area">
+                            <li class="use_image_item">
+                                <img src="images/datepicker_16.png"/>
+                                <span class="disc_style">
+                                    가로형
+                                </span>
+                            </li>
+                            <li class="use_image_item">
+                                <img src="images/datepicker_17.png"/>
+                                <span class="disc_style">
+                                    세로형
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            가로형과 세로형을 지원합니다.
+                        </span>
+                    </div>
+                </div>
+                <div class="use_image_container">
+                    <div class="use_image_con">
+                        <ul class="use_image_area">
+                            <li class="use_image_item horizon_type">
+                                <img src="images/datepicker_18.png"/>
+                                <span class="disc_style">
+                                    단일 사용
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disc_con">
+                        <span class="disc_style">
+                            단일로만 사용할 수 있으며 이중 사용은 불가능합니다.
+                        </span>
+                    </div>
+                </div>
+                <h2 class="content_title">구성 스타일</h2>
+                <div class="token_sets_con">
+                    <div class="token_sets_area">
+                        <ul class="list_title_con">
+                            <li class="list_title_item">
+                                <span class="list_title_text">요소</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">구성</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">토큰</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">레이블</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">타이포</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body 01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">달력 숫자</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">타이포</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body 01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">도우미 텍스트</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">타이포</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$helper text 01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 30</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 10</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">자리표시자 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 50</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력텍스트 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 10</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력 텍스트</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">타이포</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body 01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 80</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 110</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">자리표시자 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 50</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">버튼 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력텍스트 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 110</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">포커스 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$white</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">포커스 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 10</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">포커스 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력텍스트 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 10</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">포커스 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$danu blue 60</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">포커스 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 110</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">포커스 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력텍스트 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 110</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">읽기 전용 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 70</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">읽기 전용 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 10</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">읽기 전용 Dark</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력텍스트 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 10</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">읽기 전용 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 30</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">읽기 전용 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 110</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">읽기 전용 Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">입력텍스트 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$gray 110</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">에러 버튼</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">테두리 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$red 60</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">에러 버튼</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">아이콘 컬러</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$red 60</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer class="content_footer">
+                <div class="footer_inner">
+                    <p class="copyright">Copyright © 2023 Danusys</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/accodion.js"></script>
+    <script src="js/radio.js"></script>
+    <script src="js/topButton.js"></script>
+    <script>
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    <script src="js/loading.js"></script>
+    <script src="js/themSticky.js"></script>
+</body>
+</html>

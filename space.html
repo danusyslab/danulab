@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Danusys Creative Lab</title>
+</head>
+<body class="before_load">
+    <div class="loading">
+        <svg class="loading_circle">
+            <circle cx="50%" cy="50%" r="25"></circle>
+        </svg>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="hd_pc">
+                <a href="main.html">
+                    <div class="logo_title">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </div> 
+                </a>
+                <ul>
+                    <li>
+                        <a href="logo.html">BX Guide</a>
+                    </li>
+                    <li class="active">
+                        <a href="main.html">Design System</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd_mo">
+                <div class="logo_title">
+                    <a href="main.html">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </a>
+                </div>
+                <div class="hamburger_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z"/></g></svg>
+                </div>
+                <div class="ham_cancel_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z"/></g></svg>
+                </div>
+            </div>
+        </header>
+        <div class="side_menu_wrapper">
+            <nav class="left_side">
+                <ul class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li>
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li class="sub_list_con_item acco_active">
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="side_menu_wrapper_mo">
+            <nav class="left_side">
+                <ul class="home_con">
+                    <li id="bxTab" class="home_item">
+                        <a href="#">
+                            <span>BX Guideline</span>
+                        </a>
+                    </li>
+                    <li id="designTab" class="home_item active">
+                        <a href="#">
+                            <span>Design System</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="bxList" class="list_con" style="display: none;">
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Danusys</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li class="sub_list_con_item">
+                                <a href="logo.html" class="side_item">
+                                    <span class="submenu_item">Wordmark</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="businesscard.html" class="side_item">
+                                    <span class="submenu_item">Business card</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="brandgoods.html" class="side_item">
+                                    <span class="submenu_item">Brandgoods</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="designList" class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main_container contents_back">
+            <button onclick="goToTop()" type="button" class="gototop">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 24V0h24v24z"/></mask><g mask="url(#a)"><path fill="#333" d="m18 17-1.4 1.4-4.6-4.6-4.6 4.6L6 17l6-6 6 6Zm0-9H6V6h12v2Z"/></g></svg>
+            </button>
+            <div id="scrollSection0" class="top_sub_blue_con">
+                <div class="top_sub_container">
+                    <span class="sub_top_text">
+                        Space & Grid
+                    </span>
+                    <div class="status_con">
+                        <ul class="status_area">
+                            <li class="status_item">
+                                <span class="name_work">
+                                         기획/디자인
+                                </span>
+                                <div class="status_current">
+                                    <span class="ongoing_status"></span>
+                                    <p class="text_status">진행 중</p>
+                                </div>
+                            </li>
+                            <li class="status_item">
+                                <span class="name_work">
+                                         코딩
+                                </span>
+                                <div class="status_current">
+                                    <span class="ongoing_status"></span>
+                                    <p class="text_status">진행 중</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <span class="date_updated">
+                                 1.0.0 버전 / 2023년 3월 31일 업로드
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection1" class="sub_second_con">
+                <p class="desc_text">4의 배수를 활용하여 그리드를 나누고 간격을 조정합니다.</p>
+                <ul class="res_btn_area">
+                    <li class="res_btn_item">
+                        <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=386%3A9571&t=79WLweNt8Orhzdxw-1" target="_blank" class="res_btn_a">
+                            <span class="res_btn_name">
+                                디자인 파일 바로가기
+                            </span>
+                            <div class="res_link_con">
+                                <span class="figma_link">
+                                    <img src="images/figma.svg"/>
+                                </span>
+                                <span class="arrow_other_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 18 5 16.6 14.6 7H6V5h12v12h-2V8.4L6.4 18Z"/></g></svg>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="res_btn_item">
+                        <a href="css/space_shadow.scss" download="" class="res_btn_a">
+                            <span class="res_btn_name">
+                                SCSS 파일 다운로드
+                            </span>
+                            <div class="res_link_con">
+                                <span class="figma_link">
+                                    <img src="images/css.svg"/>
+                                </span>
+                                <span class="arrow_other_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6 20c-.55 0-1.02-.196-1.412-.587A1.927 1.927 0 0 1 4 18v-3h2v3h12v-3h2v3c0 .55-.196 1.021-.587 1.413A1.928 1.928 0 0 1 18 20H6Zm6-4-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Z"/></g></svg>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="scrollSection2" class="content_container">
+                <h2 class="content_title">Space</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">공간 시스템에서 크기나 길이를 결정하는 기본 단위는 8px입니다.
+                        미세 조정이 필요한 경우(ex. 텍스트 사이 공간)에 한해서는 2px, 4px 단위를 사용할 수 있습니다. 홀수의 사이즈를 허용하지 않습니다.</p>
+                </div>
+                <div class="space_con">
+                    <div class="space_area">
+                        <div class="space_img">
+                            <img src="images/space_img_1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="space_sets_area">
+                    <ul class="list_title_con">
+                        <li class="list_title_item">
+                            <span class="list_title_text">Name</span>
+                        </li>
+                        <li class="list_title_item">
+                            <span class="list_title_text">Sizing scale (px)</span>
+                        </li>
+                        <li class="list_title_item">
+                            <span class="list_title_text">Token</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 2</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">2</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-2</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-4</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-8</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 24</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">24</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-24</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 32</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">32</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-32</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 40</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">40</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-40</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 48</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">48</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-48</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 56</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">56</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-56</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 64</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">64</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-64</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 72</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">72</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-72</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 80</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">80</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-80</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 88</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">88</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-88</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Space 96</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">96</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$space-96</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="space_align_area">
+                    <ul class="space_align_list">
+                        <li class="space_align_item">
+                            <div class="available_con">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"></path></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"></path></svg>
+                            </div>
+                            <img src="images/space_img_2.png">
+                            <p>사용 가능한 정렬</p>
+                        </li>
+                        <li class="space_align_item donot_item">
+                            <div class="donot_con">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"></path></mask><g mask="url(#a)"><path fill="#fff" stroke="#fff" stroke-width=".2" d="m6.33 19.07.07.071.07-.07L12 13.54l5.53 5.53.07.07.07-.07 1.4-1.4.071-.071-.07-.07L13.54 12l5.53-5.53.07-.07-.07-.07-1.4-1.4-.071-.071-.07.07L12 10.46l-5.53-5.53-.07-.07-.07.07-1.4 1.4-.071.071.07.07L10.46 12l-5.53 5.53-.07.07.07.07 1.4 1.4Z"></path></g></svg>
+                            </div>
+                            <img src="images/space_img_3.png">
+                            <p>사용 불가능한 정렬</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="scrollSection3" class="content_container">
+                <h2 class="content_title">Shadows</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">직사광선에 의해 빛의 경로에 따라 생기는 Hard Shadow와 주변광에 의해 빛의 경로와 무관하게 물질 주변에 퍼지는 Soft Shadow로 나뉘어집니다.
+                        자연스러운 그림자를 형성하기 위해 Hard Shadow와 Soft Shadow를 조합하여 사용합니다.
+                        그 생성 규칙은 물질이 상승한 높이가 n px라고 할 때 다음과 같습니다.</p>
+                        <dl class="shadow_text_con">
+                            <dt>Hard Shadow</dt>
+                            <dd>X = 0 | Y = n | Blur = 3 * n / 2 | Opacity = 32%</dd>
+                        </dl>
+                        <dl class="shadow_text_con">
+                            <dt>Soft Shadow</dt>
+                            <dd>X = 0 | Y = 0 | Blur = 4n | Opacity = 16%</dd>
+                        </dl>
+                        <dl class="shadow_text_con">
+                            <dt>Mixed Shadow</dt>
+                            <dd>X = 0 | Y = n | Blur = 4n | Opacity = 32%</dd>
+                        </dl>
+                </div>
+                <div class="shadow_con">
+                    <div class="shadow_area">
+                        <ul class="shadow_list">
+                            <li class="shadow_item">
+                                <span class="shadow_text">
+                                    Hard shadows
+                                </span>
+                                <ul class="shadow_box_area">
+                                    <li class="hard_shadow_1">
+                                        2px
+                                    </li>
+                                    <li class="hard_shadow_2">
+                                        4px
+                                    </li>
+                                    <li class="hard_shadow_3">
+                                        8px
+                                    </li>
+                                    <li class="hard_shadow_4">
+                                        12px
+                                    </li>
+                                    <li class="hard_shadow_5">
+                                        16px
+                                    </li>
+                                    <li class="hard_shadow_6">
+                                        24px
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shadow_item">
+                                <span class="shadow_text">
+                                    Soft shadows
+                                </span>
+                                <ul class="shadow_box_area">
+                                    <li class="soft_shadow_1">
+                                        2px
+                                    </li>
+                                    <li class="soft_shadow_2">
+                                        4px
+                                    </li>
+                                    <li class="soft_shadow_3">
+                                        8px
+                                    </li>
+                                    <li class="soft_shadow_4">
+                                        12px
+                                    </li>
+                                    <li class="soft_shadow_5">
+                                        16px
+                                    </li>
+                                    <li class="soft_shadow_6">
+                                        24px
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shadow_item">
+                                <span class="shadow_text">
+                                    Mixed shadows
+                                </span>
+                                <ul class="shadow_box_area">
+                                    <li class="mixed_shadow_1">
+                                        2px
+                                    </li>
+                                    <li class="mixed_shadow_2">
+                                        4px
+                                    </li>
+                                    <li class="mixed_shadow_3">
+                                        8px
+                                    </li>
+                                    <li class="mixed_shadow_4">
+                                        12px
+                                    </li>
+                                    <li class="mixed_shadow_5">
+                                        16px
+                                    </li>
+                                    <li class="mixed_shadow_6">
+                                        24px
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shadow_sets_area">
+                    <ul class="list_title_con">
+                        <li class="list_title_item">
+                            <span class="list_title_text">Name</span>
+                        </li>
+                        <li class="list_title_item">
+                            <span class="list_title_text">Token</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Hard shadow 2</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$hard-shadow-2</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Hard shadow 4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$hard-shadow-4</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Hard shadow 8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$hard-shadow-8</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Hard shadow 12</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$hard-shadow-12</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Hard shadow 16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$hard-shadow-16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Hard shadow 24</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$hard-shadow-24</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Soft shadow 2</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$soft-shadow-2</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Soft shadow 4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$soft-shadow-4</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Soft shadow 8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$soft-shadow-8</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Soft shadow 12</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$soft-shadow-12</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Soft shadow 16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$soft-shadow-16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Soft shadow 24</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$soft-shadow-24</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Mixed shadow 2</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$mixed-shadow-2</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Mixed shadow 4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$mixed-shadow-4</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Mixed shadow 8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$mixed-shadow-8</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Mixed shadow 12</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$mixed-shadow-12</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Mixed shadow 16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$mixed-shadow-16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">Mixed shadow 24</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_token">$mixed-shadow-24</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="scrollSection4" class="content_container">
+                <h2 class="content_title">Grid system</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">디바이스는 모바일, 태블릿, 데스크톱을 큰 기준으로 구분하며 그리드는 4의 배수로 분할하여 사용합니다.</p>
+                </div>
+                <div class="grid_sets_con">
+                    <div class="sticky_con">
+                        <div id="sticky3" class="sticky_area">
+                            <button id="headingTab" type="button" class="sticky_btn">
+                                <span>Columns</span>
+                            </button>
+                            <button id="bodyTab" type="button" class="sticky_btn">
+                                <span>Margins</span>
+                            </button>
+                            <button id="utilityTab" type="button" class="sticky_btn">
+                                <span>Gutters</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="utilityCon" class="grid_sets_area" style="display: none;">
+                        <div class="col_text_con">
+                            <h4>Gutters</h4>
+                            <span>각 칼럼 사이에 위치하는 패딩 값을 ‘거터’라고 합니다. 각 칼럼 마다 정해진 거터 값에 따라 사용합니다.</span>
+                        </div>
+                        <div class="grid_img_area">
+                            <div class="grid_img_list">
+                                <ul class="grid_img_ul">
+                                    <li class="grid_img_li">
+                                        <img src="images/gutter_img_1.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="utilityCon_mo" class="grid_sets_area_mo" style="display: none;">
+                        <div class="col_text_con">
+                            <h4>Gutters</h4>
+                            <span>각 칼럼 사이에 위치하는 패딩 값을 ‘거터’라고 합니다. 각 칼럼 마다 정해진 거터 값에 따라 사용합니다.</span>
+                        </div>
+                        <div class="grid_img_area">
+                            <div class="grid_img_list">
+                                <ul class="grid_img_ul">
+                                    <li class="grid_img_li">
+                                        <img src="images/gutter_img_mo.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bodyCon" class="grid_sets_area" style="display: none;">
+                        <div class="col_text_con">
+                            <h4>Margins</h4>
+                            <span>마진의 대지의 상하, 좌우에 들어가는 여백을 뜻합니다. 각 대지 마다 정해져 있는 마진 값에 따라 사용합니다.</span>
+                        </div>
+                        <div class="grid_img_area">
+                            <div class="grid_img_list">
+                                <ul class="grid_img_ul">
+                                    <li class="grid_img_li">
+                                        <img src="images/margin_img_1.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bodyCon_mo" class="grid_sets_area_mo" style="display: none;">
+                        <div class="col_text_con">
+                            <h4>Margins</h4>
+                            <span>마진의 대지의 상하, 좌우에 들어가는 여백을 뜻합니다. 각 대지 마다 정해져 있는 마진 값에 따라 사용합니다.</span>
+                        </div>
+                        <div class="grid_img_area">
+                            <div class="grid_img_list">
+                                <ul class="grid_img_ul">
+                                    <li class="grid_img_li">
+                                        <img src="images/margin_img_mo.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="headingCon" class="grid_sets_area">
+                        <div class="col_text_con">
+                            <h4>Columns</h4>
+                            <span>컬럼은 각 아이템이 위치하는 영역을 뜻합니다. 16 Grid 기준 col-16 컬럼은 16 컬럼 전체를 차지하며 col-8은 8컬럼을 차지하게 됩니다.</br>
+                                컬럼은 4와 8의 배수를 기준으로 나누어 사용하는 것을 원칙으로 하며 특별한 상황에 따라 2의 배수로 사용할 수도 있습니다.
+                                홀수의 배수로 칼럼을 나눠서 사용할 수는 없습니다.</span>
+                        </div>
+                        <div class="grid_img_area">
+                            <div class="grid_img_list">
+                                <ul class="grid_img_ul">
+                                    <li class="grid_img_li">
+                                        <img src="images/col_img_1.png"/>
+                                    </li>
+                                    <li class="grid_img_li">
+                                        <img src="images/col_img_2.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="headingCon_mo" class="grid_sets_area_mo" style="display: none;">
+                        <div class="col_text_con">
+                            <h4>Columns</h4>
+                            <span>컬럼은 각 아이템이 위치하는 영역을 뜻합니다. 16 Grid 기준 col-16 컬럼은 16 컬럼 전체를 차지하며 col-8은 8컬럼을 차지하게 됩니다.
+                                컬럼은 4와 8의 배수를 기준으로 나누어 사용하는 것을 원칙으로 하며 특별한 상황에 따라 2의 배수로 사용할 수도 있습니다.
+                                홀수의 배수로 칼럼을 나눠서 사용할 수는 없습니다.</span>
+                        </div>
+                        <div class="grid_img_area">
+                            <div class="grid_img_list">
+                                <ul class="grid_img_ul">
+                                    <li class="grid_img_li">
+                                        <img src="images/col_img_mo.png"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_sets_area">
+                    <ul class="list_title_con">
+                        <li class="list_title_item">
+                            <span class="list_title_text">Break points (px)</span>
+                        </li>
+                        <li class="list_title_item">
+                            <span class="list_title_text">칼럼 수</span>
+                        </li>
+                        <li class="list_title_item">
+                            <span class="list_title_text">거터 (px)</span>
+                        </li>
+                        <li class="list_title_item">
+                            <span class="list_title_text">마진 (px)</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">0-359 (모바일 sm)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">360-399 (모바일 md)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">400-599 (모바일 lg)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">4</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">600-719 (태블릿 sm)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">720-839 (태블릿 md)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">24</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">840-1023 (태블릿 lg)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">8</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">24</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">1024-1279 (데스크톱 sm)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">1280-1599 (데스크톱 md)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                    <ul class="list_text_con">
+                        <li class="list_text_item">
+                            <span class="list_text_text">1600-1920 (데스크톱 lg)</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                        <li class="list_text_item">
+                            <span class="list_text_text">16</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="content_footer">
+                <div class="footer_inner">
+                    <p class="copyright">Copyright © 2023 Danusys</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/accodion.js"></script>
+    <script src="js/topButton.js"></script>
+    <script>
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    <script src="js/typography.js"></script>
+    <script src="js/loading.js"></script>
+</body>
+</html>

@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Danusys Creative Lab</title>
+</head>
+<body class="before_load">
+    <div class="loading">
+        <svg class="loading_circle">
+            <circle cx="50%" cy="50%" r="25"></circle>
+        </svg>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="hd_pc">
+                <a href="main.html">
+                    <div class="logo_title">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </div> 
+                </a>
+                <ul>
+                    <li>
+                        <a href="logo.html">BX Guide</a>
+                    </li>
+                    <li class="active">
+                        <a href="main.html">Design System</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd_mo">
+                <div class="logo_title">
+                    <a href="main.html">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </a>
+                </div>
+                <div class="hamburger_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z"/></g></svg>
+                </div>
+                <div class="ham_cancel_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z"/></g></svg>
+                </div>
+            </div>
+        </header>
+        <div class="side_menu_wrapper">
+            <nav class="left_side">
+                <ul class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li>
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li class="sub_list_con_item acco_active">
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="side_menu_wrapper_mo">
+            <nav class="left_side">
+                <ul class="home_con">
+                    <li id="bxTab" class="home_item">
+                        <a href="#">
+                            <span>BX Guideline</span>
+                        </a>
+                    </li>
+                    <li id="designTab" class="home_item active">
+                        <a href="#">
+                            <span>Design System</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="bxList" class="list_con" style="display: none;">
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Danusys</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li class="sub_list_con_item">
+                                <a href="logo.html" class="side_item">
+                                    <span class="submenu_item">Wordmark</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="businesscard.html" class="side_item">
+                                    <span class="submenu_item">Business card</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="brandgoods.html" class="side_item">
+                                    <span class="submenu_item">Brandgoods</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="designList" class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main_container contents_back">
+            <button onclick="goToTop()" type="button" class="gototop">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 24V0h24v24z"/></mask><g mask="url(#a)"><path fill="#333" d="m18 17-1.4 1.4-4.6-4.6-4.6 4.6L6 17l6-6 6 6Zm0-9H6V6h12v2Z"/></g></svg>
+            </button>
+            <div id="scrollSection0" class="top_sub_blue_con">
+                <div class="top_sub_container">
+                    <span class="sub_top_text">
+                        Typhography
+                     </span>
+                     <div class="status_con">
+                         <ul class="status_area">
+                             <li class="status_item">
+                                 <span class="name_work">
+                                     기획/디자인
+                                 </span>
+                                 <div class="status_current">
+                                     <span class="ongoing_status"></span>
+                                     <p class="text_status">진행 중</p>
+                                 </div>
+                             </li>
+                             <li class="status_item">
+                                 <span class="name_work">
+                                     코딩
+                                 </span>
+                                 <div class="status_current">
+                                     <span class="ongoing_status"></span>
+                                     <p class="text_status">진행 중</p>
+                                 </div>
+                             </li>
+                         </ul>
+                         <span class="date_updated">
+                             1.1.0 버전 / 2023년 4월 27일 업로드 (rem 단위 변경)
+                         </span>
+                     </div>
+                </div>
+            </div>
+            <div id="scrollSection1" class="sub_second_con">
+                <p class="desc_text">폰트 스타일은 IBM의 'IBM Plex Sans'을 사용합니다. 폰트 굵기는 얇은 굵기의 폰트(Light: 300), 중간 굵기의 폰트(Regular: 400), 그리고 굵은 굵기의 폰트(Bold: 700)으로 구성됩니다.</p>
+                <ul class="res_btn_area">
+                    <li class="res_btn_item">
+                        <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=161%3A661&t=79WLweNt8Orhzdxw-1" target="_blank" class="res_btn_a">
+                            <span class="res_btn_name">
+                                디자인 파일 바로가기
+                            </span>
+                            <div class="res_link_con">
+                                <span class="figma_link">
+                                    <img src="images/figma.svg"/>
+                                </span>
+                                <span class="arrow_other_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 18 5 16.6 14.6 7H6V5h12v12h-2V8.4L6.4 18Z"/></g></svg>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="res_btn_item">
+                        <a href="css/typography.scss" download="" class="res_btn_a">
+                            <span class="res_btn_name">
+                                SCSS 파일 다운로드
+                            </span>
+                            <div class="res_link_con">
+                                <span class="figma_link">
+                                    <img src="images/css.svg"/>
+                                </span>
+                                <span class="arrow_other_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6 20c-.55 0-1.02-.196-1.412-.587A1.927 1.927 0 0 1 4 18v-3h2v3h12v-3h2v3c0 .55-.196 1.021-.587 1.413A1.928 1.928 0 0 1 18 20H6Zm6-4-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Z"/></g></svg>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="scrollSection2" class="content_container">
+                <h2 class="content_title">Type Color</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">텍스트 색상은 해당 텍스트가 위치한 배경색과의 명도 대비에 따라 상대적으로 적용합니다.</p>
+                </div>
+                <div class="typo_color_con">
+                    <div class="typo_color_area">
+                        <ul class="typo_color_list">
+                            <li>
+                                <span class="typo_color_item_1">
+                                    제목이나 중요한 정보처럼 강조되어야 하는 텍스트는 배경색과 100등급 이상 차이나는 색을 사용합니다.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="typo_color_item_2">
+                                    부제, 본문은 배경색과 80등급 이상 차이나는 색을 사용합니다.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="typo_color_item_3">
+                                    중요도가 낮은 내용은 배경색과 60등급 이상 차이나는 색을 사용합니다.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="typo_color_item_4">
+                                    표기해야 하나 사용자의 눈에 잘 띄지 않아야 하는 텍스트는 배경색과 40등급 이상 차이나는 색을 사용합니다.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection3" class="content_container">
+                <h2 class="content_title">Type Scale</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">가장 작은 텍스트 사이즈는 12px이며 가장 큰 텍스트 사이즈는 60px 입니다. 짝수 사이즈만 사용합니다.</p>
+                </div>
+                <div class="typo_scale_con">
+                    <div class="typo_scale_area">
+                        <ul class="typo_scale_list">
+                            <li class="typo_scale_item">
+                                <span class="typo_size_12">
+                                    12px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_14">
+                                    14px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_16">
+                                    16px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_18">
+                                    18px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_20">
+                                    20px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_24">
+                                    24px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_28">
+                                    28px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_32">
+                                    32px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_36">
+                                    36px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_48">
+                                    48px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                            <li class="typo_scale_item">
+                                <span class="typo_size_60">
+                                    60px 동틀 녘 햇빛 포개짐
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection4" class="content_container">
+                <h2 class="content_title">Type Sets</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">heading 레벨을 가진 텍스트는 본문의 제목이나 강조되어야 하는 중요한 텍스트에 사용되고, body 레벨을 가진 텍스트는 본문이나 일반적으로 쓰이는 텍스트에 사용됩니다. Utility 레벨의 텍스트는 라벨이나 정책 등 별도로 표시되는 텍스트에 쓰입니다.</p>
+                </div>
+                <div class="typo_sets_con">
+                    <div class="sticky_con">
+                        <div id="sticky3" class="sticky_area">
+                            <button id="headingTab" type="button" class="sticky_btn">
+                                <span>Heading</span>
+                            </button>
+                            <button id="bodyTab" type="button" class="sticky_btn">
+                                <span>Body</span>
+                            </button>
+                            <button id="utilityTab" type="button" class="sticky_btn">
+                                <span>Utility</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="utilityCon" class="typo_sets_area" style="display: none;">
+                        <ul class="list_title_con">
+                            <li class="list_title_item">
+                                <span class="list_title_text">Name</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Size (px/rem)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Line height (px/rem)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Weight</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Letter spacing (px)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Token</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Code 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$code-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Code 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$code-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Label 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$label-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Label 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$label-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Helper text 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$helper-text-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Helper text 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$helper-text-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Legal 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$legal-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Legal 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$legal-02</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="utilityCon_mo" class="typo_sets_area_mo" style="display: none;">
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Code 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$code-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Code 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$code-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Label 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$label-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Label 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$label-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Helper text 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.32</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$helper-text-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Helper text 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$helper-text-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Legal 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 12/1.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$legal-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Legal 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$legal-02</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="bodyCon" class="typo_sets_area" style="display: none;">
+                        <ul class="list_title_con">
+                            <li class="list_title_item">
+                                <span class="list_title_text">Name</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Size (px/rem)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Line height (px/rem)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Weight</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Letter spacing (px)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Token</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body Compact 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-compact-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body Compact 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">22/2.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-compact 02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body Compact 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">26/2.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-compact-03</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">24/2.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-03</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="bodyCon_mo" class="typo_sets_area_mo" style="display: none;">
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body Compact 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-compact-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body Compact 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 22/2.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-compact-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body Compact 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 26/2.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-compact-03</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 24/2.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Body 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$body-03</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="headingCon" class="typo_sets_area">
+                        <ul class="list_title_con">
+                            <li class="list_title_item">
+                                <span class="list_title_text">Name</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Size (px/rem)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Line height (px/rem)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Weight</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Letter spacing (px)</span>
+                            </li>
+                            <li class="list_title_item">
+                                <span class="list_title_text">Token</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading Compact 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-compact-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading Compact 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">22/2.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-compact-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading Compact 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">26/2.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-compact-03</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">24/2.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-03</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 04</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-04</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 05</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">24/2.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">32/3.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-05</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 06</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">36/3.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-06</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 07</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">32/3.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">40/4.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-07</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 08</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">36/3.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">44/4.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-08</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 09</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">48/4.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">58/5.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-09</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 10</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">60/6.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">72/7.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-10</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="headingCon_mo" class="typo_sets_area_mo" style="display: none;">
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading Compact 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-compact-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading Compact 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 22/2.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-compact-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading Compact 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 26/2.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-compact-03</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 01</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 14/1.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0.16</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-01</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 02</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 16/1.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 24/2.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-02</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 03</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 18/1.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 700/Bold</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-03</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 04</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 20/2.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-04</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 05</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 24/2.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 32/3.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-05</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 06</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 28/2.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 36/3.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 400/Regular</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-06</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 07</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 32/3.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 40/4.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-07</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 08</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 36/3.6</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 44/4.4</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-08</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 09</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 48/4.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 58/5.8</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-09</span>
+                            </li>
+                        </ul>
+                        <ul class="list_text_con">
+                            <li class="list_text_item">
+                                <span class="list_text_text">Heading 10</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Size (px/rem): 60/6.0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Line height (px/rem): 72/7.2</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Weight: 300/Light</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_text">Letter spacing (px): 0</span>
+                            </li>
+                            <li class="list_text_item">
+                                <span class="list_text_token">$heading-10</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer class="content_footer">
+                <div class="footer_inner">
+                    <p class="copyright">Copyright © 2023 Danusys</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/accodion.js"></script>
+    <script src="js/topButton.js"></script>
+    <script>
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    <script src="js/typography.js"></script>
+    <script src="js/loading.js"></script>
+</body>
+</html>

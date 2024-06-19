@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Danusys Creative Lab</title>
+</head>
+<body class="before_load">
+    <div class="loading">
+        <svg class="loading_circle">
+            <circle cx="50%" cy="50%" r="25"></circle>
+        </svg>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="hd_pc">
+                <a href="main.html">
+                    <div class="logo_title">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </div> 
+                </a>
+                <ul>
+                    <li>
+                        <a href="logo.html">BX Guide</a>
+                    </li>
+                    <li class="active">
+                        <a href="main.html">Design System</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd_mo">
+                <div class="logo_title">
+                    <a href="main.html">
+                        <img src="images/DANUSYS.svg"/>
+                        <img src="images/logo_text.svg"/>
+                    </a>
+                </div>
+                <div class="hamburger_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z"/></g></svg>
+                </div>
+                <div class="ham_cancel_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z"/></g></svg>
+                </div>
+            </div>
+        </header>
+        <div class="side_menu_wrapper">
+            <nav class="left_side">
+                <ul class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li>
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li class="sub_list_con_item acco_active">
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="side_menu_wrapper_mo">
+            <nav class="left_side">
+                <ul class="home_con">
+                    <li id="bxTab" class="home_item">
+                        <a href="#">
+                            <span>BX Guideline</span>
+                        </a>
+                    </li>
+                    <li id="designTab" class="home_item active">
+                        <a href="#">
+                            <span>Design System</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="bxList" class="list_con" style="display: none;">
+                    <li class="list_con_item">
+                        <button class="side_submenu active">
+                            <span class="submenu_title">Danusys</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con" style="display: block;">
+                            <li class="sub_list_con_item">
+                                <a href="logo.html" class="side_item">
+                                    <span class="submenu_item">Wordmark</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="businesscard.html" class="side_item">
+                                    <span class="submenu_item">Business card</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="brandgoods.html" class="side_item">
+                                    <span class="submenu_item">Brandgoods</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="designList" class="list_con">
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">About</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="principle.html" class="side_item">
+                                    <span class="submenu_item">Principle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduction.html" class="side_item">
+                                    <span class="submenu_item">Introduction</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Foundation</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul class="sub_list_con">
+                            <li class="sub_list_con_item">
+                                <a href="color.html" class="side_item">
+                                    <span class="submenu_item">Color</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="typography.html" class="side_item">
+                                    <span class="submenu_item">Typhography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="icon.html" class="side_item">
+                                    <span class="submenu_item">Iconography</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="space.html" class="side_item">
+                                    <span class="submenu_item">Space&Grid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Components</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="radioButton.html" class="side_item">
+                                    <span class="submenu_item">Radio Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="checkbox.html" class="side_item">
+                                    <span class="submenu_item">Checkbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="toggle.html" class="side_item">
+                                    <span class="submenu_item">Toggle</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="button.html" class="side_item">
+                                    <span class="submenu_item">Button</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tag.html" class="side_item">
+                                    <span class="submenu_item">Tag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="textInput.html" class="side_item">
+                                    <span class="submenu_item">Text Input</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dropdown.html" class="side_item">
+                                    <span class="submenu_item">Dropdown</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="search.html" class="side_item">
+                                    <span class="submenu_item">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Patterns</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="datePicker.html" class="side_item">
+                                    <span class="submenu_item">Date picker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="breadcrumb.html" class="side_item">
+                                    <span class="submenu_item">Breadcrumb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buttongroup.html" class="side_item">
+                                    <span class="submenu_item">Button group</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notification.html" class="side_item">
+                                    <span class="submenu_item">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="table.html" class="side_item">
+                                    <span class="submenu_item">Table</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_con_item">
+                        <button class="side_submenu">
+                            <span class="submenu_title">Design Resources</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M18 18V0H0v18z"/></mask><g mask="url(#a)"><path fill="#212121" d="M4.5 7.5 9 12l4.5-4.5-1.05-1.05L9 9.9 5.55 6.45 4.5 7.5Z"/></g></svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=12%3A655&t=xnCMyobcl6TsNBbp-1" target="_blank" class="side_item">
+                                    <span class="submenu_item">Figma library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://172.20.20.107:7980/storybook-pub/storybook-static/?path=/docs/introduction--docs" target="_blank" class="side_item">
+                                    <span class="submenu_item">Publishing library</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><mask id="a" width="18" height="18" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h18v18H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M3.167 16.5c-.459 0-.851-.163-1.178-.49a1.607 1.607 0 0 1-.489-1.177V3.167c0-.459.163-.851.49-1.178.326-.326.718-.489 1.177-.489H9v1.667H3.167v11.666h11.666V9H16.5v5.833c0 .459-.163.851-.49 1.178-.326.326-.718.489-1.177.489H3.167Zm3.916-4.417-1.166-1.166 7.75-7.75h-3V1.5H16.5v5.833h-1.667v-3l-7.75 7.75Z"/></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main_container contents_back">
+            <button onclick="goToTop()" type="button" class="gototop">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 24V0h24v24z"/></mask><g mask="url(#a)"><path fill="#333" d="m18 17-1.4 1.4-4.6-4.6-4.6 4.6L6 17l6-6 6 6Zm0-9H6V6h12v2Z"/></g></svg>
+            </button>
+            <div id="scrollSection0" class="top_sub_blue_con">
+                <div class="top_sub_container">
+                    <span class="sub_top_text">
+                            Iconography
+                    </span>
+                    <div class="status_con">
+                        <ul class="status_area">
+                            <li class="status_item">
+                                <span class="name_work">
+                                         기획/디자인
+                                </span>
+                                <div class="status_current">
+                                    <span class="ongoing_status"></span>
+                                    <p class="text_status">진행 중</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <span class="date_updated">
+                                 1.0.0 버전 / 2023년 3월 31일 업로드
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection1" class="sub_second_con">
+                <p class="desc_text">가능한 다누시스 디자인 시스템에 미리 정의되어 있는 아이콘 아이템을 활용하여 제작합니다.
+                    필요한 아이콘이 없을 시 구글 머테리얼 디자인, IBM의 카본 디자인 스타일을 차용하여 제작합니다.
+                    원하는 의미를 전달할 수 있는 범위에서 최대한 단순한 형태로 제작하여 사용자에게 아이콘이 바로 인식되도록 합니다.
+                    정사각형 프레임 안에 패딩을 포함하여 제작합니다.</p>
+                    <ul class="res_btn_area">
+                        <li class="res_btn_item">
+                            <a href="https://www.figma.com/file/p0JSFKOf47X3e2RxHpRw0O/Design-System?node-id=366%3A4767&t=79WLweNt8Orhzdxw-1" target="_blank" class="res_btn_a">
+                                <span class="res_btn_name">
+                                    디자인 파일 바로가기
+                                </span>
+                                <div class="res_link_con">
+                                    <span class="figma_link">
+                                        <img src="images/figma.svg"/>
+                                    </span>
+                                    <span class="arrow_other_link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6.4 18 5 16.6 14.6 7H6V5h12v12h-2V8.4L6.4 18Z"/></g></svg>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="res_btn_item">
+                            <a href="images/Icons.zip" download="" class="res_btn_a">
+                                <span class="res_btn_name">
+                                    아이콘 팩 zip 파일 다운로드
+                                </span>
+                                <div class="res_link_con">
+                                    <span class="figma_link">
+                                        <img src="images/zip.svg"/>
+                                    </span>
+                                    <span class="arrow_other_link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#333" d="M6 20c-.55 0-1.02-.196-1.412-.587A1.927 1.927 0 0 1 4 18v-3h2v3h12v-3h2v3c0 .55-.196 1.021-.587 1.413A1.928 1.928 0 0 1 18 20H6Zm6-4-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Z"/></g></svg>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+            <div id="scrollSection2" class="content_container">
+                <h2 class="content_title">Icon Scale</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">아이콘 기본 사이즈는 24*24 사이즈입니다. 상황에 따라 18*18 사이즈, 36*36 사이즈, 48*48 사이즈를 사용할 수 있습니다.
+                        기본 아이콘 24*24 사이즈의 비율에 비례하여 사용해주세요. 아이콘 포맷은 SVG로만 사용 가능합니다.</p>
+                </div>
+                <div class="icon_scale_con">
+                    <div class="icon_scale_area">
+                        <div class="icon_scale_back">
+                            <ul class="icon_scale_list">
+                                <li class="icon_back">
+                                    <span class="icon_setting_18"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_info_18"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_map_18"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_search_18"></span>
+                                </li>
+                            </ul>
+                            <p>18px</p>
+                        </div>
+                        <div class="icon_scale_back">
+                            <ul class="icon_scale_list">
+                                <li class="icon_back">
+                                    <span class="icon_setting_24"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_info_24"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_map_24"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_search_24"></span>
+                                </li>
+                            </ul>
+                            <p>24px</p>
+                        </div>
+                        <div class="icon_scale_back">
+                            <ul class="icon_scale_list">
+                                <li class="icon_back">
+                                    <span class="icon_setting_36"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_info_36"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_map_36"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_search_36"></span>
+                                </li>
+                            </ul>
+                            <p>36px</p>
+                        </div>
+                        <div class="icon_scale_back">
+                            <ul class="icon_scale_list">
+                                <li class="icon_back">
+                                    <span class="icon_setting_48"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_info_48"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_map_48"></span>
+                                </li>
+                                <li class="icon_back">
+                                    <span class="icon_search_48"></span>
+                                </li>
+                            </ul>
+                            <p>48px</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection3" class="content_container">
+                <h2 class="content_title">Padding & Space</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">기본 사이즈 24*24 기준, 최대 20*20 프레임 안에 아이콘을 그리며 위 아래, 양 옆 패딩 값은 2를 확보하여 아이콘을 그려줍니다. </p>
+                </div>
+                <div class="icon_padding_con">
+                    <div class="icon_padding_area">
+                        <ul class="icon_padding_list">
+                            <li class="icon_padding_item">
+                                <img src="images/padding_1.png"/>
+                            </li>
+                            <li class="icon_padding_item">
+                                <img src="images/padding_2.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection4" class="content_container">
+                <h2 class="content_title">Key Lines</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">기본 사이즈 24*24 기준, 최대 20*20 프레임 안에 아이콘을 그리며 위 아래, 양 옆 패딩 값은 2를 확보하여 아이콘을 그려줍니다.</p>
+                </div>
+                <div class="icon_keyline_con">
+                    <div class="icon_keyline_area">
+                        <ul class="icon_keyline_list">
+                            <li class="icon_keyline_item">
+                                <img src="images/key_lines_1.png"/>
+                            </li>
+                            <li class="icon_keyline_item">
+                                <img src="images/key_lines_2.png"/>
+                            </li>
+                            <li class="icon_keyline_item">
+                                <img src="images/key_lines_3.png"/>
+                            </li>
+                            <li class="icon_keyline_item">
+                                <img src="images/key_lines_4.png"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection5" class="content_container">
+                <h2 class="content_title">Stroke</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">기본 Stroke는 2이며 기본 사이즈(24*24)에서 제작 가능한 다른 사이즈를 변형하여 사용해주세요.</p>
+                </div>
+                <div class="icon_stroke_con">
+                    <div class="icon_stroke_area">
+                        <img src="images/stroke_img.png"/>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection6" class="content_container">
+                <h2 class="content_title">Alignment</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">아이콘 프레임 안에서 아이콘을 항상 가운데 정렬로 배치해주세요. 텍스트와 함께 병용하여 사용할 때에도 가운데 정렬에 맞춰 제작해주세요.</p>
+                </div>
+                <div class="icon_align_con">
+                    <div class="icon_align_area">
+                        <ul class="icon_align_list">
+                            <li class="icon_align_item">
+                                <div class="available_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"/></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"/></svg>
+                                </div>
+                                <img src="images/align_img_1.png"/>
+                                <p>사용 가능한 정렬</p>
+                            </li>
+                            <li class="icon_align_item donot_item">
+                                <div class="donot_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#fff" stroke="#fff" stroke-width=".2" d="m6.33 19.07.07.071.07-.07L12 13.54l5.53 5.53.07.07.07-.07 1.4-1.4.071-.071-.07-.07L13.54 12l5.53-5.53.07-.07-.07-.07-1.4-1.4-.071-.071-.07.07L12 10.46l-5.53-5.53-.07-.07-.07.07-1.4 1.4-.071.071.07.07L10.46 12l-5.53 5.53-.07.07.07.07 1.4 1.4Z"/></g></svg>
+                                </div>
+                                <img src="images/align_img_2.png"/>
+                                <p>사용 불가능한 정렬</p>
+                            </li>
+                        </ul>
+                        <ul class="icon_align_list">
+                            <li class="icon_align_item">
+                                <div class="available_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"/></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"/></svg>
+                                </div>
+                                <img src="images/align_img_3.png"/>
+                                <p>사용 가능한 정렬</p>
+                            </li>
+                            <li class="icon_align_item donot_item">
+                                <div class="donot_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#fff" stroke="#fff" stroke-width=".2" d="m6.33 19.07.07.071.07-.07L12 13.54l5.53 5.53.07.07.07-.07 1.4-1.4.071-.071-.07-.07L13.54 12l5.53-5.53.07-.07-.07-.07-1.4-1.4-.071-.071-.07.07L12 10.46l-5.53-5.53-.07-.07-.07.07-1.4 1.4-.071.071.07.07L10.46 12l-5.53 5.53-.07.07.07.07 1.4 1.4Z"/></g></svg>
+                                </div>
+                                <img src="images/align_img_4.png"/>
+                                <p>사용 불가능한 정렬</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection8" class="content_container">
+                <h2 class="content_title">Color</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">아이콘 컬러는 통일하여 사용해주세요. 한 가지 아이콘 내에서 2~3가지 컬러 사용을 하지마세요.</p>
+                </div>
+                <div class="icon_color_con">
+                    <div class="icon_color_area">
+                        <ul class="icon_color_list">
+                            <li class="icon_color_item">
+                                <div class="available_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"/></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"/></svg>
+                                </div>
+                                <img src="images/align_img_5.png"/>
+                                <p>무채색 컬러 사용 허용 범위</p>
+                            </li>
+                            <li class="icon_color_item donot_item">
+                                <div class="donot_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#fff" stroke="#fff" stroke-width=".2" d="m6.33 19.07.07.071.07-.07L12 13.54l5.53 5.53.07.07.07-.07 1.4-1.4.071-.071-.07-.07L13.54 12l5.53-5.53.07-.07-.07-.07-1.4-1.4-.071-.071-.07.07L12 10.46l-5.53-5.53-.07-.07-.07.07-1.4 1.4-.071.071.07.07L10.46 12l-5.53 5.53-.07.07.07.07 1.4 1.4Z"/></g></svg>
+                                </div>
+                                <img src="images/align_img_6.png"/>
+                                <p>무채색 컬러 사용 불가 범위</p>
+                            </li>
+                        </ul>
+                        <ul class="icon_color_list">
+                            <li class="icon_color_item">
+                                <div class="available_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" fill="#fff"><path d="m5 12 9-9 6 6-9 9-6-6Z"/></mask><path fill="#fff" d="m11 18-1.414 1.414L11 20.828l1.414-1.414L11 18Zm7.586-10.414-9 9 2.828 2.828 9-9-2.828-2.828Zm-6.172 9-6-6-2.828 2.828 6 6 2.828-2.828Z" mask="url(#a)"/></svg>
+                                </div>
+                                <img src="images/align_img_7.png"/>
+                                <p>유채색 컬러 사용 허용 범위</p>
+                            </li>
+                            <li class="icon_color_item donot_item">
+                                <div class="donot_con">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><mask id="a" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#D9D9D9" d="M0 0h24v24H0z"/></mask><g mask="url(#a)"><path fill="#fff" stroke="#fff" stroke-width=".2" d="m6.33 19.07.07.071.07-.07L12 13.54l5.53 5.53.07.07.07-.07 1.4-1.4.071-.071-.07-.07L13.54 12l5.53-5.53.07-.07-.07-.07-1.4-1.4-.071-.071-.07.07L12 10.46l-5.53-5.53-.07-.07-.07.07-1.4 1.4-.071.071.07.07L10.46 12l-5.53 5.53-.07.07.07.07 1.4 1.4Z"/></g></svg>
+                                </div>
+                                <img src="images/align_img_8.png"/>
+                                <p>유채색 컬러 사용 불가 범위</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="scrollSection5" class="content_container">
+                <h2 class="content_title">Angles</h2>
+                <div class="desc_text_con">
+                    <p class="desc_text">앵글은 기본 45°를 기본으로 하되, 15° 단위까지 허용합니다.</p>
+                </div>
+                <div class="icon_stroke_con">
+                    <div class="icon_stroke_area">
+                        <img src="images/angles_img.png"/>
+                    </div>
+                </div>
+            </div>
+            <footer class="content_footer">
+                <div class="footer_inner">
+                    <p class="copyright">Copyright © 2023 Danusys</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/accodion.js"></script>
+    <script src="js/topButton.js"></script>
+    <script>
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    <script src="js/typography.js"></script>
+    <script src="js/loading.js"></script>
+</body>
+</html>
